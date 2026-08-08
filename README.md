@@ -1,25 +1,34 @@
-# Terraform Practice - KodeKloud Labs
+# Terraform Cloud & Infrastructure Automation Labs
 
-This repository contains my Terraform practice codes and exercises completed during KodeKloud labs.
+Welcome to my hands-on Terraform repository! This project contains structured Infrastructure as Code (IaC) configuration labs, practice modules, and automation scenarios covering local resources, Azure cloud networking, and cloud infrastructure management.
 
-## Exercises
+---
 
-### 1. Local File Creation
-- **Provider:** `local`
-- **Resource:** `local_file`
-- **Description:** Creates a local text file (`/root/pets.txt`) with custom content using Infrastructure as Code (IaC) principles.
+## 📁 Repository Structure
 
-## How to Run
+The repository is organized by numbered labs for easy navigation and practice tracking:
 
-1. Initialize Terraform:
-     terraform init
+| Lab Directory | Description | Status |
+| :--- | :--- | :--- |
+| `01-local-file-lab` | Practice creating and managing local files with Terraform | Completed |
+| 
 
-2. Check Plan:
-     terraform plan
+---
 
-3. Apply Configuration:
-     sudo terraform apply
+## 🛠 Prerequisites & Tools
 
+- **Terraform:** v1.15+
+- **Version Control:** Git & GitHub
+- **OS Environment:** Ubuntu Linux / Bash
 
+---
 
+## 🚀 How to Run a Lab
 
+Navigate to the specific lab directory and execute the Terraform workflow:
+
+```bash
+cd 01-local-file-lab
+terraform init
+terraform plan
+terraform apply
