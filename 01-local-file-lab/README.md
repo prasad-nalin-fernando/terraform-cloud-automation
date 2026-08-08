@@ -7,7 +7,7 @@ This repository contains my Terraform practice codes and exercises completed dur
 ### 1. Local File Creation
 - **Provider:** `local`
 - **Resource:** `local_file`
-- **Description:** Creates a local text file (`/root/pets.txt`) with custom content using Infrastructure as Code (IaC) principles.
+- **Description:** Creates a local text file (`/home/nalin/pets.txt`) with custom content using Infrastructure as Code (IaC) principles.
 
 ## How to Run
 
